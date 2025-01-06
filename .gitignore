@@ -1,0 +1,12 @@
+Backend/venv/
+
+# Python cache and logs
+__pycache__/
+*.py[cod]
+*.pyo
+*.log
+
+# IDEs and tools
+.vscode/
+*.swp
+
