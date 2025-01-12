@@ -5,7 +5,7 @@ import os
 
 
 
-load_dotenv('.env')
+# load_dotenv('.env')
 
 
 
