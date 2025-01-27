@@ -76,7 +76,7 @@ INSTALLED_APPS = [
     "rest_framework_simplejwt",
     "djoser",
     # my_apps
-    "auth_app",
+    "app",
 
 
 ]
@@ -171,6 +171,7 @@ SIMPLE_JWT = {
     'AUTH_HEADER_TYPES': ('Bearer',),
     'ROTATE_REFRESH_TOKENS': True,
     'BLACKLIST_AFTER_ROTATION': True,
-    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=5),  # Adjust as needed
+    'ACCESS_TOKEN_LIFETIME': timedelta(days=3),  # Adjust as needed
     'REFRESH_TOKEN_LIFETIME': timedelta(days=3),
 }
+
